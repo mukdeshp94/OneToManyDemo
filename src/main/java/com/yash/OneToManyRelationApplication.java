@@ -14,7 +14,9 @@ public class OneToManyRelationApplication implements CommandLineRunner{
 
 	public static void main(String[] args) {
 		SpringApplication.run(OneToManyRelationApplication.class, args);
-	}
+		
+		System.out.println("this is uploaded on git repository");
+}
 
 	@Autowired
 	private PostRepo postrepo;
