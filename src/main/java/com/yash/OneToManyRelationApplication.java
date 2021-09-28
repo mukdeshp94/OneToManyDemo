@@ -18,7 +18,7 @@ public class OneToManyRelationApplication implements CommandLineRunner{
 		System.out.println("this is uploaded on git repository");
 }
 
-	@Autowired
+	@Autowired    
 	private PostRepo postrepo;
 	@Override
 	public void run(String... args) throws Exception {
